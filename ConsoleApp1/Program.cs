@@ -16,6 +16,14 @@ namespace ConsoleApp1
 
             person.Greeting();
 
+         
+            int result = Calculator.Add(5, 10);
+            Console.WriteLine("\r" + "\n" + "the calculated answer is: " + result) ;
+            Console.WriteLine(System.Environment.NewLine);
+            Console.WriteLine("First line");
+            Console.WriteLine(System.Environment.NewLine);
+            Console.WriteLine("Next line");
+
 
             /*    Console.WriteLine("Hello World!");
 
